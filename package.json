@@ -1,0 +1,56 @@
+{
+  "_from": "confson@latest",
+  "_inBundle": false,
+  "_integrity": "sha1-LRmNXKA+vM3K63ydnEkuGEBb4AI=",
+  "_location": "/confson",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "confson@latest",
+    "name": "confson",
+    "escapedName": "confson",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "author": "Kieran Davies",
+  "bin": {
+    "confson": "confsoncmd.js"
+  },
+  "bugs": {
+    "url": "https://github.com/astranger1k/confson/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "ConfSON is JSON with multiline strings and comments. Includes parser and converter.",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "~1.17.1"
+  },
+  "homepage": "https://github.com/astranger1k/confson",
+  "keywords": [
+    "json",
+    "confson"
+  ],
+  "licenses": [
+    {
+      "type": "Public Domain",
+      "url": "http://unlicense.org/"
+    }
+  ],
+  "main": "confson.js",
+  "name": "confson",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astranger1k/confson.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.2.0",
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
+}
